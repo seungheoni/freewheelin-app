@@ -108,9 +108,6 @@ code: 200
 ```
 
 ## 학습지의 문제 조회(학생)
-
-학생에게 배정된 학습지인지 검증 후 목록 반환.
-
 ### Request
 ```http
 url: http://localhost:8080/v1/piece/{pieceId}/problems?studentUserId=2
@@ -134,9 +131,6 @@ code: 200
 ```
 
 ## 채점하기(학생)
-
-여러 문제를 일괄 채점.
-
 ### Request
 ```http
 url: http://localhost:8080/v1/piece/{pieceId}/score?studentUserId=2
@@ -164,9 +158,6 @@ code: 200
 ```
 
 ## 학습지 학습 통계 분석(선생님)
-
-학생별/문제별 정답 통계를 반환.
-
 ### Request
 ```http
 url: http://localhost:8080/v1/piece/{pieceId}/analyze?teacherUserId=1
