@@ -1,0 +1,18 @@
+# Build outputs
+build/
+target/
+out/
+
+# Gradle
+.gradle/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
