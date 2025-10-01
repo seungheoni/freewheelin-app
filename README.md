@@ -9,8 +9,8 @@
 - 문제 조회 API 사용시 문제 수가 많을 때 조회 데이터가 커져 서버 메모리 및 네트워크 부하가 증가.
   - DB 조회시 최근 기간에 대한 필터를 적용하고 id만을 레벨별 분할 조회하여 서버 메모리 및 네트워크 부하를 줄이고 난이도에 따라 샘플링.
 
-## ERD
+## [ERD](https://dbdiagram.io/d/프리윌린-과제-ERD-68d76b7bd2b621e422263160)
 
 <img width="1064" height="884" alt="프리윌린 과제 ERD (1)" src="https://github.com/user-attachments/assets/9705f9d2-73dd-4290-9368-a9081c397bac" />
 
-[원본-ERD](https://dbdiagram.io/d/프리윌린-과제-ERD-68d76b7bd2b621e422263160)
+
