@@ -8,3 +8,5 @@
 - uni_code를 단순 문자열로 사용하면 타입 안전성이 떨어지고, enum class는 값이 많고 변경·추가가 잦아 유지 보수가 어려움.
   - value class를 사용하고 엔드 포인트단 유효성검사 설정을 세세하게 하여 조치
 
+<img width="1064" height="884" alt="프리윌린 과제 ERD (1)" src="https://github.com/user-attachments/assets/9705f9d2-73dd-4290-9368-a9081c397bac" />
+[원본-ERD](https://dbdiagram.io/d/프리윌린-과제-ERD-68d76b7bd2b621e422263160)
