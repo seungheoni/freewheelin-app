@@ -1,7 +1,7 @@
 package com.freewheelin.model
 
-import jakarta.persistence.AttributeConverter
-import jakarta.persistence.Converter
+import javax.persistence.AttributeConverter
+import javax.persistence.Converter
 import com.freewheelin.exception.ErrorMessage
 import io.swagger.v3.oas.annotations.media.Schema
 

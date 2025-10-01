@@ -1,5 +1,5 @@
 plugins {
-    id("org.springframework.boot") version "3.2.0"
+    id("org.springframework.boot") version "2.7.18"
     id("io.spring.dependency-management") version "1.1.4"
     kotlin("jvm") version "1.9.20"
     kotlin("plugin.spring") version "1.9.20"
@@ -25,8 +25,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     
-    // Swagger/OpenAPI
-    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0")
+    // Swagger/OpenAPI (springdoc 1.x for Spring Boot 2)
+    implementation("org.springdoc:springdoc-openapi-ui:1.7.0")
     
     // H2 Database
     runtimeOnly("com.h2database:h2")

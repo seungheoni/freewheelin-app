@@ -1,7 +1,7 @@
 package com.freewheelin.entity
 
 import com.freewheelin.model.ProblemType
-import jakarta.persistence.*
+import javax.persistence.*
 import java.time.LocalDateTime
 
 @Entity

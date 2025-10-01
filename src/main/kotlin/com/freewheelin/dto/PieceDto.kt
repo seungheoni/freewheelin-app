@@ -5,8 +5,8 @@ import com.freewheelin.entity.PieceProblem
 import com.freewheelin.model.UnitCode
 import java.time.LocalDateTime
 import io.swagger.v3.oas.annotations.media.Schema
-import jakarta.validation.Valid
-import jakarta.validation.constraints.*
+import javax.validation.Valid
+import javax.validation.constraints.*
 
 data class PieceCreateRequest(
     @field:NotBlank

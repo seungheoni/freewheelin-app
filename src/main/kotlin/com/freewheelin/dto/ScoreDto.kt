@@ -2,8 +2,8 @@ package com.freewheelin.dto
 
 import com.freewheelin.model.ProblemType
 import java.time.LocalDateTime
-import jakarta.validation.Valid
-import jakarta.validation.constraints.*
+import javax.validation.Valid
+import javax.validation.constraints.*
 
 data class ScoreRequest(
     @field:NotEmpty

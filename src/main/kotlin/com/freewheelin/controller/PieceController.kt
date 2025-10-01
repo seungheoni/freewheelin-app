@@ -8,7 +8,7 @@ import io.swagger.v3.oas.annotations.Operation
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
-import jakarta.validation.Valid
+import javax.validation.Valid
 
 /**
  * 학습지 관리 API

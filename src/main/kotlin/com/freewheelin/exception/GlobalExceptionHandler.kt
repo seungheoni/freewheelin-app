@@ -25,7 +25,7 @@ class GlobalExceptionHandler {
      */
     @ExceptionHandler(ResponseStatusException::class)
     fun responseStatusException(ex: ResponseStatusException): ResponseEntity<ErrorBody> {
-        return ResponseEntity.status(ex.statusCode).body(ErrorBody.of(ex))
+        return ResponseEntity.status(ex.status).body(ErrorBody.of(ex))
     }
 
     /**

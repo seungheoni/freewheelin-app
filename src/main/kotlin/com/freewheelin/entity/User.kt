@@ -1,6 +1,6 @@
 package com.freewheelin.entity
 
-import jakarta.persistence.*
+import javax.persistence.*
 import java.time.LocalDateTime
 
 enum class UserRole {

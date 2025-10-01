@@ -1,6 +1,6 @@
 package com.freewheelin.entity
 
-import jakarta.persistence.*
+import javax.persistence.*
 
 @Entity
 @Table(name = "piece")

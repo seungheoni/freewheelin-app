@@ -4,8 +4,7 @@ import com.freewheelin.dto.ProblemListResponse
 import com.freewheelin.dto.ProblemSearchRequest
 import com.freewheelin.service.ProblemService
 import io.swagger.v3.oas.annotations.Operation
-import jakarta.validation.Valid
-import org.springdoc.core.annotations.ParameterObject
+import javax.validation.Valid
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -34,7 +33,7 @@ class ProblemController(
     @GetMapping("/problems")
     @Operation(summary = "문제 조회")
     fun searchProblems(
-        @ParameterObject @Valid @ModelAttribute request: ProblemSearchRequest
+        @Valid @ModelAttribute request: ProblemSearchRequest
     ): ResponseEntity<ProblemListResponse> {
         val response = problemService.searchProblems(request)
         return ResponseEntity.ok(response)
